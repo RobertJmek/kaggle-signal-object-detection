@@ -1,0 +1,7 @@
+model,config,val_acc,macro_f1
+CompactSignalCNN (OOF),"~0.9M params, single-channel 128x64",57.32,56.04
+RandomForest,n_estimators=400,37.26,34.79
+LogReg,C=1.0,28.48,24.28
+SVM-RBF,"C=1.0, gamma=0.01 (n=8000)",28.26,25.83
+Linear-SVM,C=1.0,28.06,22.04
+k-NN,"k=25, weights=uniform",24.48,21.93

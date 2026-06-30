@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Data (Kaggle competition images — not redistributable)
+data/raw/
+data/
+
+# Model weights & checkpoints (large; reproducible from run scripts)
+models/
+*.pth
+*.pt
+*.ckpt
+
+# Run outputs
+run*_out/
+*.log
+
+# Large regenerable artifact caches
+*.npy
